@@ -31,7 +31,7 @@ const Header = () => {
         {/* Right Side - Image */}
         <div className="header-image">
           <img
-            src="https://drive.google.com/file/d/1oBM_QfKo3hexFQsTrf3syM5ySzvXSRyk/view?usp=drive_link" 
+            src="/Portfolio/src/images/profile.png" 
             alt="Profile"
           />
         </div>
