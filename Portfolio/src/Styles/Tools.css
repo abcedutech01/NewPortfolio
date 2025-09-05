@@ -1,0 +1,49 @@
+.tools {
+  padding: 80px 20px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.tools-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, #9333ea, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tools-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Tool Card */
+.tool-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.tool-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon */
+.tool-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.tool-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+}
