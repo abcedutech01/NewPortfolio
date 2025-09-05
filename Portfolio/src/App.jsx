@@ -3,13 +3,13 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-// import Header from './components/Header'
+import Header from './components/Header'
 import Skills from './components/Skills'
 import Frameworks from './components/Frameworks'
 import Hackathons from './components/Hackathons'
 import Tools from './components/Tools'
 import Events from './components/Events'
-// import About from './components/About'
+import About from './components/About'
 import Footer from './components/Footer'
 
 function App() {
@@ -17,13 +17,13 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Header/> */}
+      <Header/>
       <Skills/>
       <Frameworks/>
       <Hackathons/>
       <Tools/>
       <Events/>
-      {/* <About/> */}
+      <About/>x
       <Footer/>
     </>
   )
