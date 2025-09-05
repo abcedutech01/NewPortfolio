@@ -30,10 +30,7 @@ const Header = () => {
 
         {/* Right Side - Image */}
         <div className="header-image">
-          <img
-            src="/Portfolio/src/images/profile.png" 
-            alt="Profile"
-          />
+          <img src="/images/profile.png" alt="Profile" />
         </div>
       </div>
     </header>
