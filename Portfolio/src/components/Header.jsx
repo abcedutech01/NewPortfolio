@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Header.css";
-import "../images/profile.png";
+
 
 const Header = () => {
   const handlescroll = (id) => {
@@ -25,12 +25,16 @@ const Header = () => {
             <a href="#skills" className="btn primary-btn" id="skilled" onClick={() => handleScroll("skilled")} >
               Explore Me !
             </a>
+            <a href="public/images/resume.pdf" download="resume.pdf" target="_blank" className="btn primary-btn">
+              Download CV
+            </a>
           </div>
         </div>
 
         {/* Right Side - Image */}
         <div className="header-image">
-          <img src="/images/profile.png" alt="Profile" />
+          <img src="public/images/profile.png" alt="Profile" />
+
         </div>
       </div>
     </header>

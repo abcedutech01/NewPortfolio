@@ -3,13 +3,13 @@ import "../Styles/Hackathons.css";
 
 const hackathons = [
   {
-    name: "NextQuantom 1.0",
+    name: "NextQuantom 1.0", //wheels on
     date: "March 2024",
     image: "https://via.placeholder.com/400x250", // replace with your hackathon image
     repo: "https://github.com/yourusername/nextquantom1",
   },
   {
-    name: "SIH (Smart India Hackathon)",
+    name: "SIH (Smart India Hackathon) 2024",
     date: "September 2024",
     image: "https://via.placeholder.com/400x250",
     repo: "https://github.com/yourusername/sih2024",
@@ -17,7 +17,7 @@ const hackathons = [
   {
     name: "NextQuantom 2.0",
     date: "April 2025",
-    image:"images/nextquantom2.0", // replace with your hackathon image
+    image:"public/images/next2.jpg", // replace with your hackathon image
     repo: "https://github.com/yourusername/nextquantom2",
   },
   {

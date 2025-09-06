@@ -7,7 +7,7 @@ const projects = [
     shortDesc: "An IoT-based system to optimize traffic flow and prioritize emergency vehicles.",
     details:
       "This project uses IR sensors and Arduino to adjust signal timing dynamically based on traffic density, detects emergency vehicles, and raises alarms for violations. It improves traffic efficiency and safety.",
-    image: "https://via.placeholder.com/400x250",
+    image: "public/images/profile.png",
     tech: ["Arduino", "IoT", "Sensors", "Embedded C"],
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     shortDesc: "A web app where customers can raise tickets with attachments and track status.",
     details:
       "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
     tech: ["React", "Node.js", "MongoDB", "Express"],
   },
   {

@@ -113,7 +113,6 @@ html, body {
 .header-image img {
   width: 100%;
   max-width: 280px;
-  background-image: url('https://drive.google.com/file/d/1oBM_QfKo3hexFQsTrf3syM5ySzvXSRyk/view?usp=drive_link');
   /* background-image: url('images/profile.png'); */
   height: 280px;
   border-radius: 50%;
