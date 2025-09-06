@@ -23,7 +23,7 @@ const hackathons = [
   {
     name: "OdooXCGC Hackathon (Virtual)",
     date: "August 2025",
-    image: "https://via.placeholder.com/400x250",
+    image: "public/images/cgch2025.png",
     repo: "https://github.com/yourusername/odooxcgc",
   },
 ];
@@ -31,7 +31,7 @@ const hackathons = [
 const Hackathons = () => {
   return (
     <section className="hackathons" id="hackathons">
-      <h2 className="hackathons-title">Hackathons</h2>
+      <h2 className="hackathons-title com-head">Hackathons</h2>
       <div className="hackathons-container">
         {hackathons.map((hack, index) => (
           <div className="hackathon-card" key={index}>

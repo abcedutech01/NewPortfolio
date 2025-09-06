@@ -19,8 +19,8 @@ const aboutData = [
           <p><b>Passing Year</b> : 2022</p>
         </li>
         <li>10th Education
-          <p><b>12th</b> (Non-Medical)</p>
-          <p><b>School</b> : Government Senior Secondary School (Multipurpose), Ludhiana</p>
+          <p>10th</p>
+          <p><b>School</b> : Government Senior Secondary School</p>
           <p><b>%</b> : 95+ (A+)</p>
           <p><b>Passing Year</b> : 2020</p>
         </li>
@@ -34,33 +34,34 @@ const aboutData = [
   {
     title: "Hobbies",
     content: (
-      <p>Photography, Gaming, Coding, Listening Music</p>
+        <ul>
+          <li>Coding</li>
+          <li>Participating Events</li>
+          <li>Photography</li>
+          <li>Video Games</li>
+          <li>Listening Music</li>
+        </ul>
     ),
   },
   {
-    title: "Experience",
+    title: "Work Experience",
     content: (
-      <p>
-        👨‍💻 Worked on Smart Traffic Management System, Parking Management
-        System, Hackathons, and Freelance Projects.
-      </p>
+      <ul>
+          <li>I am working as a Compressor Operator since July 2024</li>
+          <li>Created 5+ Websites (Front-End)</li>
+        </ul>
+      
     ),
   },
   {
     title: "How you can reach me?",
     content: (
-      <p>
-        Email: <a href="mailto:yourmail@gmail.com">rajapple6284@gmail.com</a>
-        <br />
-        <br />
-        Phone: +91-6284602841
-      </p>
-    ),
-  },
-  {
-    title: "My Social Media",
-    content: (
-      <p>Linkein</p>
+      <ul className="about-link">
+          <li><a href="https://linkedin.com/in/abc-edutech/" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto:rajapple6284@gmail.com" target="_blank">E-Mail</a></li>
+          <li><a href="https://instagram.com/abc_edutech" target="_blank">Instagram</a></li>
+          <li><a href="https://api.whatsapp.com/send/?phone=916284602841&text=Hello,%20Raj" target="_blank">WhatsApp</a></li>
+        </ul>
     ),
   },
 ];
@@ -74,7 +75,7 @@ const About = () => {
 
   return (
     <section className="about" id="about">
-      <h2 className="about-title">👤 About Me</h2>
+      <h2 className="about-title com-head">About Me</h2>
       <div className="about-container">
         {aboutData.map((item, index) => (
           <div className="about-item" key={index}>
@@ -84,7 +85,7 @@ const About = () => {
             >
               <h3>{item.title}</h3>
               <span className="icon">
-                {activeIndex === index ? "➖" : "➕"}
+                {activeIndex === index ? "-" : "+"}
               </span>
             </div>
             {activeIndex === index && (

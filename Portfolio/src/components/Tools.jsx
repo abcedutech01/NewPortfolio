@@ -14,7 +14,7 @@ const tools = [
 const Tools = () => {
   return (
     <section className="tools" id="tools">
-      <h2 className="tools-title">🛠 Tools I Use</h2>
+      <h2 className="tools-title com-head">Tools</h2>
       <div className="tools-container">
         {tools.map((tool, index) => (
           <div

@@ -8,7 +8,7 @@
   font-size: 2.4rem;
   font-weight: 800;
   margin-bottom: 40px;
-  background: linear-gradient(to right, #06b6d4, #3b82f6);
+  background: linear-gradient(to left, #ffffff, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -65,4 +65,8 @@
 
 .about-content li {
   margin-bottom: 6px;
+}
+.about-link li a {
+  text-decoration: none;
+  color: black;
 }

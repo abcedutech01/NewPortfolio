@@ -41,7 +41,7 @@ const Events = () => {
 
   return (
     <section className="events" id="events">
-      <h2 className="events-title">🎉 Events</h2>
+      <h2 className="events-title com-head">Events</h2>
       <div className="carousel">
         <div
           className="carousel-track"

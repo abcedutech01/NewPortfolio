@@ -22,7 +22,7 @@ const frameworks = [
 const Frameworks = () => {
   return (
     <section className="frameworks" id="frameworks">
-      <h2 className="frameworks-title">🛠️ Frameworks I Use</h2>
+      <h2 className="frameworks-title com-head">Frameworks</h2>
       <div className="frameworks-container">
         {frameworks.map((fw, index) => (
           <div className="framework-card" key={index}>

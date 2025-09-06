@@ -26,7 +26,7 @@ const Footer = () => {
             <a href="https://instagram.com/abc_edutech" target="_blank" rel="noreferrer">📸</a>
             <a href="https://github.com/abcedutech01" target="_blank" rel="noreferrer">🐦</a>
             <a href="mailto:rajapple6284@gmail.com">📧</a>
-            <a href="https://api.whatsapp.com/send/?phone=916284602841">📧</a>
+            <a href="https://api.whatsapp.com/send/?phone=916284602841&text=Hello,%20Raj">📧</a>
           </div>
         </div>
       </div>
