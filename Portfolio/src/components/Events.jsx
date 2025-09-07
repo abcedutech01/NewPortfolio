@@ -4,27 +4,27 @@ import "../Styles/Events.css";
 const events = [
   {
     title: "TEDxGGI 2025",
-    image: "public/images/tedxggi.jpg",
+    image: "images/tedx2025e.png",
   },
   {
     title: "NextQuantom 2.0 Hackathon 2025",
-    image: "public/images/next2e.jpg",
+    image: "images/next2e.jpg",
   },
   {
     title: "PCTE Tech/Non-Tech Event 2025",
-    image: "public/images/pcte2025e.jpg",
+    image: "images/pcte2025e.jpg",
   },
   {
     title: "CGC Tech Event 2023",
-    image: "public/images/cgc2023e.jpg",
+    image: "images/cgc2023e.jpg",
   },
   {
     title: "GNA University Tech Event 2023",
-    image: "public/images/gna2023e.jpg",
+    image: "images/gna2023e.jpg",
   },
   {
     title: "World Student Day 2023",
-    image: "public/images/studentday2023e.jpg",
+    image: "images/studentday2023e.jpg",
   },
 ];
 
