@@ -11,7 +11,24 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "Express"],
   },
   {
-    title: "Smart Traffic Management System",
+    title: "Automatic Traffic Management System",
+    shortDesc: "A web app where customers can raise tickets with attachments and track status.",
+    details:
+      "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
+    image: "images/cgc2025h.png",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+  },
+  
+  {
+    title: "Rock - Paper - Scissor Game",
+    shortDesc: "A web app where customers can raise tickets with attachments and track status.",
+    details:
+      "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
+    image: "images/cgc2025h.png",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+  },
+  {
+    title: "Wheels On Rent",
     shortDesc: "A personal portfolio showcasing my projects, skills, and achievements.",
     details:
     "Built with React and Tailwind CSS, featuring responsive design, dark mode, and attractive animations. It highlights my work, hackathons, and technical journey.",
@@ -19,7 +36,7 @@ const projects = [
     tech: ["React", "TailwindCSS"],
   },
   {
-    title: "Smart Traffic Management System",
+    title: "Typing Speed Tester (Get certificate instantly)",
     shortDesc: "An IoT-based system to optimize traffic flow and prioritize emergency vehicles.",
     details:
       "This project uses IR sensors and Arduino to adjust signal timing dynamically based on traffic density, detects emergency vehicles, and raises alarms for violations. It improves traffic efficiency and safety.",

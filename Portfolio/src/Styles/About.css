@@ -1,6 +1,6 @@
 .about {
   padding: 80px 20px;
-  background: #f3f4f6;
+  background: linear-gradient(135deg, #f0f4f8, #8b68ff);
   text-align: center;
 }
 
@@ -8,7 +8,7 @@
   font-size: 2.4rem;
   font-weight: 800;
   margin-bottom: 40px;
-  background: linear-gradient(to left, #ffffff, #000000);
+  background: linear-gradient(to right, #3b82f6, #9333ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

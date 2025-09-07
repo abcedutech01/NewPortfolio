@@ -5,13 +5,13 @@ const hackathons = [
   {
     name: "OdooXCGC Hackathon (Virtual)",
     date: "August 2025",
-    image: "public/images/cgc2025h.png",
+    image: "images/cgc2025h.png",
     repo: "https://github.com/yourusername/odooxcgc",
   },
   {
     name: "NextQuantom 2.0",
     date: "April 2025",
-    image:"public/images/next2.jpg", // replace with your hackathon image
+    image:"images/next2.jpg", // replace with your hackathon image
     repo: "https://github.com/yourusername/nextquantom2",
   },
   {
