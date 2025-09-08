@@ -1,6 +1,5 @@
 .frameworks {
   width: 100%;
-  height: 100vh;
   padding: 80px 20px;
   background: linear-gradient(135deg, #f0f4f8, #8b68ff); /* darker background */
   color: white;

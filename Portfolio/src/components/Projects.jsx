@@ -8,15 +8,15 @@ const projects = [
     details:
       "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
     image: "images/cgc2025h.png",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
+    tech: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Automatic Traffic Management System",
     shortDesc: "A web app where customers can raise tickets with attachments and track status.",
     details:
       "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
-    image: "images/cgc2025h.png",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
+    image: "images/next2.jpg",
+    tech: ["Arduino IDE", "IR Sensor", "Motion Sensor", "Arduino UNO", "Embeded C"],
   },
   
   {
@@ -24,24 +24,24 @@ const projects = [
     shortDesc: "A web app where customers can raise tickets with attachments and track status.",
     details:
       "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
-    image: "images/cgc2025h.png",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
+    image: "images/rock.png",
+    tech: ["C++"],
   },
   {
     title: "Wheels On Rent",
     shortDesc: "A personal portfolio showcasing my projects, skills, and achievements.",
     details:
     "Built with React and Tailwind CSS, featuring responsive design, dark mode, and attractive animations. It highlights my work, hackathons, and technical journey.",
-    image: "images/next2.jpg",
-    tech: ["React", "TailwindCSS"],
+    image: "images/next12024h.png",
+    tech: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Typing Speed Tester (Get certificate instantly)",
     shortDesc: "An IoT-based system to optimize traffic flow and prioritize emergency vehicles.",
     details:
       "This project uses IR sensors and Arduino to adjust signal timing dynamically based on traffic density, detects emergency vehicles, and raises alarms for violations. It improves traffic efficiency and safety.",
-    image: "",
-    tech: ["Arduino", "IoT", "Sensors", "Embedded C"],
+    image: "images/typing.png",
+    tech: ["HTML", "CSS", "JavaScript", "Python"],
   },
 ];
 
@@ -54,7 +54,7 @@ const Projects = () => {
 
   return (
     <section className="projects" id="projects">
-      <h2 className="projects-title com-head">My Projects (To be add)</h2>
+      <h2 className="projects-title com-head">My Projects</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
           <div

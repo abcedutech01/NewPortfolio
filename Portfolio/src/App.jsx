@@ -23,7 +23,7 @@ function App() {
       <Projects/>
       <Tools/>
       <Events/>
-      <About/>x
+      <About/>
       <Footer/>
     </>
   )
