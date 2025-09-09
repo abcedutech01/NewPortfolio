@@ -4,42 +4,42 @@ import "../Styles/Projects.css";
 const projects = [
   {
     title: "Ticket Raising Web Portal",
-    shortDesc: "A web app where customers can raise tickets with attachments and track status.",
-    details:
-      "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
+    // shortDesc: "A web app where customers can raise tickets with attachments and track status.",
+    // details:
+    //   "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
     image: "images/cgc2025h.png",
     tech: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Automatic Traffic Management System",
-    shortDesc: "A web app where customers can raise tickets with attachments and track status.",
-    details:
-      "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
+    // shortDesc: "A web app where customers can raise tickets with attachments and track status.",
+    // details:
+    //   "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
     image: "images/next2.jpg",
     tech: ["Arduino IDE", "IR Sensor", "Motion Sensor", "Arduino UNO", "Embeded C"],
   },
   
   {
     title: "Rock - Paper - Scissor Game",
-    shortDesc: "A web app where customers can raise tickets with attachments and track status.",
-    details:
-      "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
+    // shortDesc: "A web app where customers can raise tickets with attachments and track status.",
+    // details:
+    //   "Developed during a hackathon, this app allows users to submit complaints with categories and attachments. Agents can view, update, and resolve tickets. Built within 8 hours as a hackathon project.",
     image: "images/rock.png",
     tech: ["C++"],
   },
   {
     title: "Wheels On Rent",
-    shortDesc: "A personal portfolio showcasing my projects, skills, and achievements.",
-    details:
-    "Built with React and Tailwind CSS, featuring responsive design, dark mode, and attractive animations. It highlights my work, hackathons, and technical journey.",
+    // shortDesc: "A personal portfolio showcasing my projects, skills, and achievements.",
+    // details:
+    // "Built with React and Tailwind CSS, featuring responsive design, dark mode, and attractive animations. It highlights my work, hackathons, and technical journey.",
     image: "images/next12024h.png",
     tech: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Typing Speed Tester (Get certificate instantly)",
-    shortDesc: "An IoT-based system to optimize traffic flow and prioritize emergency vehicles.",
-    details:
-      "This project uses IR sensors and Arduino to adjust signal timing dynamically based on traffic density, detects emergency vehicles, and raises alarms for violations. It improves traffic efficiency and safety.",
+    // shortDesc: "An IoT-based system to optimize traffic flow and prioritize emergency vehicles.",
+    // details:
+    //   "This project uses IR sensors and Arduino to adjust signal timing dynamically based on traffic density, detects emergency vehicles, and raises alarms for violations. It improves traffic efficiency and safety.",
     image: "images/typing.png",
     tech: ["HTML", "CSS", "JavaScript", "Python"],
   },
